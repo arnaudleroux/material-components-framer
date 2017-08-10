@@ -7,6 +7,9 @@ Modular and customizable Material Design UI components for Framer.
 - [Standard app bar](#standard-app-bar)
 
 ### Standard app bar
+
+<img src="https://user-images.githubusercontent.com/6703130/29193669-98ee5aae-7e26-11e7-8462-8045ef1d7fc8.gif" width="600">
+
 The app bar has two scrolling options:
 - The app bar can scroll off-screen with the content and return when the user reverse scrolls.
 - The app bar can stay fixed at the top with content scrolling under it.
