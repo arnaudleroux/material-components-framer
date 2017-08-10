@@ -1,3 +1,5 @@
+<img src="https://user-images.githubusercontent.com/6703130/29192541-14d00f6e-7e22-11e7-9105-8e2627531802.png" width="344">
+
 # Material Components for Framer
 Modular and customizable Material Design UI components for Framer.
 
