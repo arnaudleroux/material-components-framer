@@ -54,5 +54,3 @@ scroll.onMove ->
 # Change scroll.content properties
 scroll.content.draggable.overdrag = false
 scroll.content.draggable.bounce = false
-
-

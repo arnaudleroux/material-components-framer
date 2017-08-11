@@ -1489,6 +1489,296 @@
         "targetName" : "ContentArea",
         "fillColor" : "rgb(255, 255, 255)",
         "name" : "ContentArea"
+      },
+      {
+        "radiusBottomLeft" : 0,
+        "rotation" : 0,
+        "__class" : "ImageNode",
+        "id" : "Zg>]1Pp\/",
+        "fillColor" : "transparent",
+        "aspectRatioLocked" : true,
+        "imageBackgroundSize" : "Cover",
+        "widthFactor" : null,
+        "opacity" : 1,
+        "clip" : false,
+        "borderColor" : "#222",
+        "left" : -65,
+        "locked" : false,
+        "radius" : 0,
+        "boxShadows" : [
+          {
+            "x" : 0,
+            "color" : "rgba(0,0,0,0.25)",
+            "enabled" : false,
+            "y" : 2,
+            "__class" : "BoxShadow",
+            "inset" : false,
+            "blur" : 5
+          }
+        ],
+        "centerAnchorX" : 1.338199513381995,
+        "borderPerSide" : false,
+        "radiusBottomRight" : 0,
+        "children" : [
+          {
+            "__class" : "TextNode",
+            "locked" : false,
+            "centerAnchorX" : 0.3248546511627907,
+            "parentid" : "Zg>]1Pp\/",
+            "rotation" : 0,
+            "top" : null,
+            "right" : null,
+            "styledText" : {
+              "blocks" : [
+                {
+                  "depth" : 0,
+                  "inlineStyleRanges" : [
+                    {
+                      "length" : 15,
+                      "style" : "COLOR:#000000",
+                      "offset" : 0
+                    },
+                    {
+                      "length" : 15,
+                      "style" : "LINEHEIGHT:1.2",
+                      "offset" : 0
+                    },
+                    {
+                      "length" : 15,
+                      "style" : "SIZE:44",
+                      "offset" : 0
+                    },
+                    {
+                      "length" : 15,
+                      "style" : "FONT:Roboto-Regular",
+                      "offset" : 0
+                    },
+                    {
+                      "length" : 15,
+                      "style" : "LETTERSPACING:1",
+                      "offset" : 0
+                    },
+                    {
+                      "length" : 15,
+                      "style" : "ALIGN:left",
+                      "offset" : 0
+                    }
+                  ],
+                  "entityRanges" : [
+
+                  ],
+                  "data" : {
+                    "emptyStyle" : [
+                      "COLOR:#000000",
+                      "LINEHEIGHT:1.2",
+                      "SIZE:44",
+                      "FONT:Roboto-Regular",
+                      "LETTERSPACING:1",
+                      "ALIGN:left"
+                    ]
+                  },
+                  "text" : "App Bar • Fixed",
+                  "key" : "d0bta",
+                  "type" : "unstyled"
+                }
+              ],
+              "__class" : "StyledTextDraft",
+              "entityMap" : {
+
+              }
+            },
+            "name" : null,
+            "shadows" : [
+              {
+                "y" : 2,
+                "enabled" : false,
+                "blur" : 5,
+                "x" : 0,
+                "__class" : "Shadow",
+                "color" : "rgba(0,0,0,0.25)"
+              }
+            ],
+            "id" : "Cs3XNjlz",
+            "constraintsLocked" : false,
+            "left" : 65,
+            "bottom" : -251,
+            "height" : 52,
+            "opacity" : 1,
+            "width" : 317,
+            "widthFactor" : null,
+            "targetName" : null,
+            "heightFactor" : null,
+            "editable" : false,
+            "visible" : true,
+            "centerAnchorY" : 1.760135135135135,
+            "autoSize" : true
+          },
+          {
+            "radiusBottomLeft" : 0,
+            "rotation" : 0,
+            "__class" : "RectangleNode",
+            "id" : "Rpwh-vO3",
+            "fillColor" : "rgb(219, 219, 219)",
+            "aspectRatioLocked" : false,
+            "widthFactor" : null,
+            "opacity" : 1,
+            "clip" : false,
+            "borderColor" : "#222",
+            "left" : 65,
+            "locked" : false,
+            "fillGradient" : {
+              "end" : "rgba(0,0,0,0)",
+              "alpha" : 1,
+              "angle" : 0,
+              "__class" : "LinearGradient",
+              "start" : "black"
+            },
+            "radius" : 0,
+            "boxShadows" : [
+              {
+                "x" : 0,
+                "color" : "rgba(0,0,0,0.25)",
+                "enabled" : false,
+                "y" : 2,
+                "__class" : "BoxShadow",
+                "inset" : false,
+                "blur" : 5
+              }
+            ],
+            "centerAnchorX" : 0.7325581395348837,
+            "borderPerSide" : false,
+            "fillType" : "color",
+            "radiusBottomRight" : 0,
+            "children" : [
+
+            ],
+            "fillEnabled" : true,
+            "parentid" : "Zg>]1Pp\/",
+            "borderRight" : 1,
+            "name" : "divider",
+            "height" : 2,
+            "borderWidth" : 1,
+            "top" : null,
+            "borderTop" : 1,
+            "radiusTopRight" : 0,
+            "borderBottom" : 1,
+            "borderEnabled" : false,
+            "constraintsLocked" : false,
+            "right" : -255,
+            "radiusPerCorner" : false,
+            "centerAnchorY" : 1.422297297297297,
+            "visible" : true,
+            "borderLeft" : 1,
+            "heightFactor" : null,
+            "radiusTopLeft" : 0,
+            "targetName" : null,
+            "bottom" : -126,
+            "width" : 878
+          },
+          {
+            "__class" : "TextNode",
+            "locked" : false,
+            "centerAnchorX" : 0.6482558139534884,
+            "parentid" : "Zg>]1Pp\/",
+            "rotation" : 0,
+            "top" : null,
+            "right" : -139,
+            "styledText" : {
+              "blocks" : [
+                {
+                  "depth" : 0,
+                  "inlineStyleRanges" : [
+                    {
+                      "length" : 54,
+                      "style" : "SIZE:28",
+                      "offset" : 0
+                    },
+                    {
+                      "length" : 54,
+                      "style" : "LINEHEIGHT:1.5",
+                      "offset" : 0
+                    },
+                    {
+                      "length" : 54,
+                      "style" : "FONT:Roboto-Regular",
+                      "offset" : 0
+                    }
+                  ],
+                  "entityRanges" : [
+
+                  ],
+                  "data" : {
+                    "emptyStyle" : [
+                      "COLOR:#000000",
+                      "LETTERSPACING:0",
+                      "SIZE:28",
+                      "LINEHEIGHT:1.5",
+                      "FONT:Roboto-Regular"
+                    ]
+                  },
+                  "text" : "Modular and customizable Material Design UI components",
+                  "key" : "d0bta",
+                  "type" : "unstyled"
+                }
+              ],
+              "__class" : "StyledTextDraft",
+              "entityMap" : {
+
+              }
+            },
+            "name" : null,
+            "shadows" : [
+              {
+                "y" : 2,
+                "enabled" : false,
+                "blur" : 5,
+                "x" : 0,
+                "__class" : "Shadow",
+                "color" : "rgba(0,0,0,0.25)"
+              }
+            ],
+            "id" : "zCx6eqVB",
+            "constraintsLocked" : false,
+            "left" : 65,
+            "bottom" : -52,
+            "height" : 42,
+            "opacity" : 1,
+            "width" : 762,
+            "widthFactor" : null,
+            "targetName" : null,
+            "heightFactor" : null,
+            "editable" : false,
+            "visible" : true,
+            "centerAnchorY" : 1.10472972972973,
+            "autoSize" : false
+          }
+        ],
+        "fillEnabled" : false,
+        "parentid" : "eX_SDvdf",
+        "borderRight" : 1,
+        "image" : "R69tTeCDbTQttaKFqmVViY7oMksXNHwmtSjpCRqfS5CXnf7KFs8Lb4xYs3xb5oxEANmJiHosd8NRo7ou8dg.png",
+        "name" : "Logo",
+        "height" : 296,
+        "borderWidth" : 1,
+        "top" : -752,
+        "borderTop" : 1,
+        "radiusTopRight" : 0,
+        "intrinsicWidth" : 688,
+        "borderBottom" : 1,
+        "originalFilename" : "Artboard Copy 2@2x.png",
+        "borderEnabled" : false,
+        "constraintsLocked" : false,
+        "right" : null,
+        "radiusPerCorner" : false,
+        "centerAnchorY" : 0.05471956224350205,
+        "visible" : true,
+        "borderLeft" : 1,
+        "heightFactor" : null,
+        "intrinsicHeight" : 296,
+        "radiusTopLeft" : 0,
+        "targetName" : null,
+        "bottom" : null,
+        "width" : 688
       }
     ]
   }
