@@ -16,6 +16,9 @@ The app bar has two scrolling options:
 
 #### Fixed
 <img src="https://user-images.githubusercontent.com/6703130/29229326-05613924-7ede-11e7-9ff7-275d0d67a369.gif" width="600">
+<a href="https://framer.cloud/fbZFg">Check out the prototype</a>
+
 
 #### Collapsing toolbar
 <img src="https://user-images.githubusercontent.com/6703130/29193669-98ee5aae-7e26-11e7-8462-8045ef1d7fc8.gif" width="600">
+<a href="https://framer.cloud/fcnYI">Check out the prototype</a>
