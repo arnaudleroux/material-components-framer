@@ -1,8 +1,0 @@
-# General OSX
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Framer Specific
-framer/social-*x*.png
