@@ -11,35 +11,41 @@ scroll.sendToBack()
 # Position the scrollContent layer inside its parent
 scrollContent.parent = scroll.content
 
-# Initialize a variable to store the scroll content ordinate
+# Initialize variables to store the scroll content ordinate
 storedOrdinateDown = scrollContent.screenFrame.y
 storedOrdinateUp = scrollContent.screenFrame.y
 
-# Initialize a variable to store the off-screen app bar height
-storedOffScreen = 0
+# Initialize variables to store the off-screen app bar height
+storedOffScreenDown = 0
+storedOffScreenUp = 0
 
 # AppBar scrollable animation
 scroll.onMove ->
 
 	if scroll.direction is "down"
-		# Translate appBar ordinate on scroll delta
-		appBar.y = scrollContent.screenFrame.y - storedOrdinateUp
 
-		# Storing the scroll content ordinate when scrolling down
+		# Storing the values
 		storedOrdinateDown = scrollContent.screenFrame.y
+		storedOffScreenDown = appBar.height - appBar.maxY
 
-		# Storing the off-screen app bar height
-		storedOffScreen = appBar.height - appBar.maxY
+		# Translate appBar ordinate on scroll delta
+		appBar.y = scrollContent.screenFrame.y - storedOrdinateUp - storedOffScreenUp
 
 	if scroll.direction is "up"
-		# Translate appBar ordinate on scroll delta
-		appBar.y = scrollContent.screenFrame.y - storedOrdinateDown - storedOffScreen
 
-		# Storing the scroll content ordinate when scrolling up
+		# Storing the values
 		storedOrdinateUp = scrollContent.screenFrame.y
+		storedOffScreenUp = appBar.height - appBar.maxY
 
-	if storedOffScreen > appBar.height
-		storedOffScreen = appBar.height
+		# Translate appBar ordinate on scroll delta
+		appBar.y = scrollContent.screenFrame.y - storedOrdinateDown-storedOffScreenDown
+
+	# Set up height limits
+	if storedOffScreenDown >= appBar.height
+		storedOffScreenDown = appBar.height
+
+	if storedOffScreenUp <= 0
+		storedOffScreenUp = 0
 
 	# Fixed toolBar
 	if appBar.y > 0
