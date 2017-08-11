@@ -1,6 +1,6 @@
 # Set up ScrollComponent
 scroll = new ScrollComponent
-	parent: Structure
+	parent: StructureLayout
 	scrollHorizontal: false
 	size: Screen.size
 	contentInset: 
@@ -17,26 +17,25 @@ storedOrdinateUp = scrollContent.screenFrame.y
 
 # AppBar scrollable animation
 scroll.onMove ->
-	
+
 	if scroll.direction is "down"
 		# Translate toolBar ordinate on scroll delta
-		toolBar.y = scrollContent.screenFrame.y - storedOrdinateUp + 
-					statusBar.height
+		appBar.y = scrollContent.screenFrame.y - storedOrdinateUp
 		
 		# Storing the scroll content ordinate when scrolling down
 		storedOrdinateDown = scrollContent.screenFrame.y
 
 	if scroll.direction is "up"
 		# Translate toolBar ordinate on scroll delta
-		toolBar.y = scrollContent.screenFrame.y - storedOrdinateDown -
-					toolBar.height
+		appBar.y = scrollContent.screenFrame.y - storedOrdinateDown -
+					appBar.height
 		
 		# Storing the scroll content ordinate when scrolling up
 		storedOrdinateUp = scrollContent.screenFrame.y
 	
 	# Fixed toolBar
-	if toolBar.y > statusBar.height
-		toolBar.y = statusBar.height
+	if appBar.y > 0
+		appBar.y = 0
 
 # Change scroll.content properties
 scroll.content.draggable.overdrag = false
