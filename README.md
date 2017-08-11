@@ -1,4 +1,4 @@
-<a href="https://github.com/arnaudlrx/material-components-framer/archive/master.zip">
+<a href="https://github.com/arnaudlrx/material-components-framer/releases/download/v0.1.0/Material.UIKit.0.1.0.zip">
 <img src="https://user-images.githubusercontent.com/6703130/29192541-14d00f6e-7e22-11e7-9105-8e2627531802.png" width="344">
 </a>
 
