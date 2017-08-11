@@ -20,5 +20,5 @@ The app bar has two scrolling options:
 
 
 #### Collapsing toolbar
-<img src="https://user-images.githubusercontent.com/6703130/29193669-98ee5aae-7e26-11e7-8462-8045ef1d7fc8.gif" width="600">
+<img src="https://user-images.githubusercontent.com/6703130/29230673-47f90216-7ee4-11e7-9017-c1840216ce6e.gif" width="600">
 <a href="https://framer.cloud/fcnYI">Check out the prototype</a>
