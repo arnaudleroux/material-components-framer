@@ -1,20 +1,20 @@
 {
   "orientation" : 0,
   "updateDelay" : 0.3,
-  "designModeSelected" : 1,
+  "designModeSelected" : 0,
   "cachedDeviceHeight" : 730.8717041015625,
   "contentScale" : 1,
   "cachedDeviceWidth" : 411.1153259277344,
   "fullScreen" : false,
   "deviceType" : "google-pixel-quite-black",
-  "sharedPrototype" : true,
+  "sharedPrototype" : 0,
   "propertyPanelToggleStates" : {
 
   },
-  "projectId" : "C5E82CB0-D1CF-42E3-88C9-B4DE838A21C8",
+  "projectId" : "0A25500D-C389-43E3-A021-C6528F7CCF1B",
   "deviceOrientation" : 0,
   "selectedHand" : "",
-  "showBezel" : false,
+  "showBezel" : 0,
   "foldedCodeRanges" : [
 
   ],
