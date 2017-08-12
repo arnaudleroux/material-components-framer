@@ -21,7 +21,7 @@ storedOffScreenUp = 0
 
 # AppBar scrollable animation
 scroll.onMove ->
-
+	
 	if scroll.direction is "down"
 
 		# Storing the values
@@ -30,6 +30,8 @@ scroll.onMove ->
 
 		# Translate appBar ordinate on scroll delta
 		appBar.y = scrollContent.screenFrame.y - storedOrdinateUp - storedOffScreenUp
+		# Translate appBar ordinate
+		tabBar.y = appBar.y + appBar.height - tabBar.height
 
 	if scroll.direction is "up"
 
@@ -39,6 +41,8 @@ scroll.onMove ->
 
 		# Translate appBar ordinate on scroll delta
 		appBar.y = scrollContent.screenFrame.y - storedOrdinateDown-storedOffScreenDown
+		# Translate appBar ordinate
+		tabBar.y = appBar.y + appBar.height - tabBar.height
 
 	# Set up height limits
 	if storedOffScreenDown >= appBar.height
@@ -50,6 +54,13 @@ scroll.onMove ->
 	# Fixed toolBar
 	if appBar.y > 0
 		appBar.y = 0
+	
+	# Fixed tabBar
+	if tabBar.y < statusBar.height
+		tabBar.y = 0 + statusBar.height
+
+	if tabBar. y > (appBar.height - tabBar.height)
+		tabBar.y = (appBar.height - tabBar.height)
 
 # Change scroll.content properties
 scroll.content.draggable.overdrag = false
