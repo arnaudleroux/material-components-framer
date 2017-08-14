@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="688px" height="296px" viewBox="0 0 688 296" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 55 0 55 55"></polygon>
+        <polygon id="path-3" points="0 0 55 0 55 55 0 55"></polygon>
+        <polygon id="path-5" points="0 0 55 55 0 55"></polygon>
+        <polygon id="path-7" points="0 0 55 0 55 55 0 55"></polygon>
+        <polygon id="path-9" points="0 0 55 0 55 55"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2">
+            <g id="Group" transform="translate(260.000000, 67.000000)" font-weight="normal" font-size="56">
+                <text id="Material•-Components" font-family="RobotoMono-Regular, Roboto Mono">
+                    <tspan x="0" y="59" fill="#000000">Material</tspan>
+                    <tspan x="268.84375" y="59" fill="#9B9B9B">•</tspan>
+                    <tspan x="302.449219" y="59" fill="#FFFFFF"></tspan>
+                    <tspan x="0" y="143" fill="#000000">Components</tspan>
+                </text>
+                <text id="⌐" stroke="#9B9B9B" stroke-width="1.5" transform="translate(355.000000, 123.000000) scale(-1, 1) translate(-355.000000, -123.000000) " font-family="Menlo-Regular, Menlo" letter-spacing="1.35172403">
+                    <tspan x="337.466716" y="138" fill="#9B9B9B">⌐</tspan>
+                    <tspan x="372.533284" y="138" font-family="RobotoMono-Regular, Roboto Mono" fill="#FFFFFF"> </tspan>
+                </text>
+            </g>
+            <g id="Logo" transform="translate(64.000000, 66.000000)">
+                <g id="Group-3" transform="translate(0.000000, 110.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <polygon id="Fill-1" fill="#0055FF" mask="url(#mask-2)" points="-2.86458333 57.8645833 57.8645833 57.8645833 57.8645833 -2.86458333 -2.86458333 -2.86458333"></polygon>
+                </g>
+                <g id="Group-6" transform="translate(0.000000, 55.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-5"></g>
+                    <polygon id="Fill-4" fill="#00AAFF" mask="url(#mask-4)" points="-2.86458333 57.8645833 57.8645833 57.8645833 57.8645833 -2.86458333 -2.86458333 -2.86458333"></polygon>
+                </g>
+                <g id="Group-9" transform="translate(55.000000, 55.000000)">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="Clip-8"></g>
+                    <polygon id="Fill-7" fill="#00AAFF" mask="url(#mask-6)" points="-2.86458333 57.8645833 57.8645833 57.8645833 57.8645833 -2.86458333 -2.86458333 -2.86458333"></polygon>
+                </g>
+                <g id="Group-12" transform="translate(55.000000, 0.000000)">
+                    <mask id="mask-8" fill="white">
+                        <use xlink:href="#path-7"></use>
+                    </mask>
+                    <g id="Clip-11"></g>
+                    <polygon id="Fill-10" fill="#88DDFF" mask="url(#mask-8)" points="-2.86458333 57.8645833 57.8645833 57.8645833 57.8645833 -2.86458333 -2.86458333 -2.86458333"></polygon>
+                </g>
+                <g id="Group-15">
+                    <mask id="mask-10" fill="white">
+                        <use xlink:href="#path-9"></use>
+                    </mask>
+                    <g id="Clip-14"></g>
+                    <polygon id="Fill-13" fill="#88DDFF" mask="url(#mask-10)" points="-2.86458333 57.8645833 57.8645833 57.8645833 57.8645833 -2.86458333 -2.86458333 -2.86458333"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
