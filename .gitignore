@@ -4,5 +4,5 @@
 .LSOverride
 
 # Framer Specific
-images/design/*png-512*
-images/design/*png-1024*
+*png-512*
+*png-1024*
