@@ -3,6 +3,9 @@
 .AppleDouble
 .LSOverride
 
+# Thumbnails
+._*
+
 # Framer Specific
 *png-512*
 *png-1024*
